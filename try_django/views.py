@@ -26,7 +26,7 @@ def about_page(request):
     return render(request,"about.html",{"title":About})
 
 def contact_page(request):
-    contact = "Contact Us"
+    contact = "CONTACT US"
     ##return HttpResponse("<h1>Contact Us</h1>")     
     return render(request,"hello_world.html",{"title":contact})  
 
