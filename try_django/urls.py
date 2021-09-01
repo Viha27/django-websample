@@ -27,7 +27,7 @@ urlpatterns = [
 
     path('blog/',include('blog.urls')),
     #re_path(r'^blog/(?P<post_id>\d+)/$',blog_post_detail_page),
-    path('examples/',example_page),
+    path('example/',example_page),
     path('contact/', contact_page),
     re_path(r'^about?/$', about_page),
     path('admin/', admin.site.urls),
